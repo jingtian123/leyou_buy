@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script src="js/jquery-1.12.3.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/gVerify.js"></script>
+		<script src="js/register.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="logo">
+				<h1><a href="http://127.0.0.1:8020/leyou/code/index.html?__hbt=1508747332020" title="乐友孕婴童商城首页">乐友孕婴童</a></h1>
+			</div>
+			<ul class="h-nav">
+				<li><a href="http://127.0.0.1:8020/leyou/code/login.html?__hbt=1508747264221">登录</a></li>
+				<li><a href="#">免费注册</a></li>
+				<li><a href="#">我的乐友</a></li>
+				<li><a href="#">查积分</a></li>
+				<li><a href="#">查订单</a></li>
+				<li><a href="#">帮助中心</a></li>
+			</ul>
+		</div>
+		
+		<div id="section">
+			
+			<div class="nav">
+				<ul>
+					<li><i class="iconfont" style="color: #f2652f;">&#xe61c;</i>填写账户信息</li>
+					<li><i class="iconfont">&#xe64f;</i>填写宝宝信息</li>
+					<li><i class="iconfont">&#xe625;</i>注册成功</li>
+					<li id="bg"></li>
+				</ul>
+			</div>
+			
+				<div class="main">
+					<div class="advert">
+						<img src="images3/reg-login1.jpg"/>
+						<p>积分抵现金，新会员即享<span>60元</span>！</p>					
+					</div>
+					
+					<form>					
+						<table border="0" id="tb" cellspacing="0" cellpadding="0" ">							
+							<tr>
+								<td class="coll">手机号:</td>
+								<td class="base">
+									<input type="text" placeholder="请填写手机号码" id="phone"/>
+									
+									<span class="wrong">
+										<img src="images3/wrong.jpg"/>
+										<b>手机格式不正确</b>									    
+									</span>
+								    <span class="empty">
+								    	手机号不能为空
+								    </span>
+								</td>
+
+							
+							</tr>
+							
+							<tr>
+								<td class="coll">验证码:</td>
+								<td>
+									<input type="text" id="code_input"/>
+								   <div>
+								   	<span id="v_container"></span>								   	
+								   </div>
+								   <span class="wrong">
+										<img src="images3/wrong.jpg"/>
+										<b>验证码输入有误</b>									    
+									</span>
+									<span class="right">
+										<img src="images3/right.png"/>
+										<b>填写正确</b>	
+									</span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="coll">短信验证码:</td>
+								<td><input type="text" class="validate"/>
+								<input type="button" value="获取短信验证码" class="message"/>
+								</td>
+																									
+							</tr>
+							
+							<tr>
+								<td class="coll">设置密码:</td>
+								<td class="base">
+									<input type="password" id="pwd"/>
+									<span class="wrong">
+										<img src="images3/wrong.jpg"/>
+										<b>必须由8-16位英文、数字、及_组成！</b>									    
+									</span>
+									<span class="right">
+										<img src="images3/right.png"/>
+										<b>填写正确</b>	
+									</span>
+									<span class="empty">
+								    	密码不能为空
+								    </span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td class="coll">确认密码:</td>
+								<td class="base">
+									<input type="password" id="con-pwd"/>
+									<span class="wrong">
+										<img src="images3/wrong.jpg"/>
+										<b>两次输入密码不一致</b>									    
+									</span>
+									<span class="right">
+										<img src="images3/right.png"/>
+										<b>填写正确</b>	
+									</span>
+									<span class="empty">
+								    	确认密码不能为空
+								    </span>
+								</td>
+							</tr>
+							
+							<tr>
+								
+								<td><div class="checked"/><img src="images3/sy-icon7.png"></div></td>
+								 <td><p>我已阅读并同意《乐友网隐私权与服务条款》</p> </td>
+																
+							</tr>
+						
+						</table>
+						<input type="button" value="下一步" id="next"/>
+					</form>
+					
+				</div>
+				
+			<p id="statement">
+				乐友购物积分可以在网、店通积通兑，如果您已经拥有乐友会员卡，
+				请您到“我的乐友”进行网络账号与 会员卡绑定，绑定后便可轻松享受乐友积分优惠政策！
+			</p>			
+		</div>
+		
+		<!--底部-->
+		<div id="footer">
+			<p>Copyright© leyou.com.cn 1999-2017, All Rights Reserved</p>
+			<img src="images3/validate.gif"/>
+			<p>沪ICP备15052447号-2 乐友孕婴童网上商城 版权所有</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,358 @@
+
+
+
+
+#section-wrap{
+	width:1210px;
+	height:2487px;
+	margin:0 auto;
+	margin-top:19px;
+	
+}
+/*孕妈需要什么呵护*/
+.section{
+	width:1210px;
+	height:387px;
+	margin:0 auto;
+	margin-top:25px;
+}
+.section .figue{
+	width:209px;
+	height:386px;
+	/*background: pink;*/
+	float:left;
+	
+}
+.figue .floor{
+	width:209px;
+	height:46px;
+	border-bottom:2px solid #bbbbbb;
+	line-height: 46px;
+}
+.floor div{
+	float:left;
+	width:27px;
+	height:36px;
+	text-align: center;
+	/*background: pink;*/
+	position: relative;
+	margin-right:12px;
+}
+.floor div b{	
+	color:#e25a80;
+	font-weight:bolder;
+	width:21px;
+	height:21px;
+	border:3px solid #e25a80;
+	border-radius:50%;
+	display: block;
+	text-align: center;
+	line-height: 21px;	
+	background: white;
+}
+.floor div span{
+	border-top:10px solid #e25a80;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-bottom:0;
+	position: absolute;
+	left:3px;
+	bottom:4px;
+	z-index: -3;
+	
+}
+.floor div i{
+	width:16px;
+	height:6px;
+	background: #dcdcdc;
+	border-radius: 50%;
+	position: absolute;
+	left:4px;
+	bottom:0;
+    z-index:-5; 
+}
+
+
+.floor h2{
+	color:#e25a80;
+	font-weight:900;
+	font-size:18px;
+}
+.figue ul{
+	height:324px;
+	width: 208px;
+	border-right:1px solid #ebebeb;
+	border-bottom:1px solid #ebebeb;
+	background: url(../images/figue_01.jpg) no-repeat right ;	
+}
+.figue ul li a{
+	color:#333333;
+	line-height: 24px;
+	display: inline-block;
+}
+.figue ul li a:hover{
+	color:#0099ff;
+}
+.figue ul{
+	padding-top:10px;
+}
+/*宝宝吃什么*/
+.section:nth-child(2) .floor div b{
+	color:#37a300;
+	border-color: #37a300;
+	
+}
+.section:nth-child(2) .floor div span{
+	border-top:10px solid #37a300;
+}
+.section:nth-child(2) .floor h2{
+	color:#37a300;
+}
+.section:nth-child(2) .figue ul span{
+	float:left;
+}
+.section:nth-child(2) .figue ul span:nth-child(1){
+	margin-right:40px;
+}
+/*宝宝穿什么*/
+.section:nth-child(3) .floor div b{
+	color:#00a5eb;
+	border-color: #00a5eb;
+	
+}
+.section:nth-child(3) .floor div span{
+	border-top:10px solid #00a5eb;
+}
+.section:nth-child(3) .floor h2{
+	color:#00a5eb;
+}
+
+
+/*宝宝用什么*/
+.section:nth-child(4) .floor div b{
+	color:#ffb515;
+	border-color: #ffb515;
+	
+}
+.section:nth-child(4) .floor div span{
+	border-top:10px solid #ffb515;
+}
+.section:nth-child(4) .floor h2{
+	color:#ffb515;
+}
+.section:nth-child(4) .figue ul span{
+	float:left;
+}
+.section:nth-child(4) .figue ul span:nth-child(1){
+	margin-right:40px;
+}
+/*宝宝玩中学什么*/
+.section:nth-child(5) .floor div b{
+	color:#e33100;
+	border-color: #e33100;
+	
+}
+.section:nth-child(5) .floor div span{
+	border-top:10px solid #e33100;
+}
+.section:nth-child(5) .floor h2{
+	color:#e33100;
+}
+.section:nth-child(5) .figue ul span{
+	float:left;
+}
+.section:nth-child(5) .figue ul span:nth-child(1){
+	margin-right:40px;
+}
+
+/*乐海淘*/
+.section:nth-child(6) .floor div b{
+	color:#ad00e8;
+	border-color: #ad00e8;
+	
+}
+.section:nth-child(6) .floor div span{
+	border-top:10px solid #ad00e8;
+}
+.section:nth-child(6) .floor h2{
+	color:#ad00e8;
+}
+.section:nth-child(6) .figue ul span{
+	float:left;
+}
+.section:nth-child(6) .figue ul span:nth-child(1){
+	margin-right:40px;
+}
+
+/*中间主体内容*/
+.section .article{
+	width:789px;
+	height:392px;
+	float:left;	
+}
+.article .article-nav{
+	width:785px;
+	height:30px;
+	line-height: 30px;
+	border-bottom:2px solid #bbbbbb;
+	margin-top:16px;
+	position: relative;
+}
+
+.article .article-nav li{
+	float:left;
+	width:157px;
+	text-align: center;
+	cursor: default;	
+}
+.article .article-nav li h3{
+	/*color:#666666;*/
+	font-weight: 900;
+}
+.article .article-nav li h3.hover3{
+	color:#e4393c;
+}
+.bg{
+	width:157px;
+	height:5px;
+	position: absolute;
+	bottom:-5px;
+	left:0;
+}
+.bg span{
+	width:157px;
+	height:2px;
+	background: #e4393c;
+	display: block;
+	
+}
+.bg b{
+	border-top:0;
+	border-bottom: 3px solid #e4393c;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	position: absolute;
+	/*left:77px;*/
+	bottom: 5px;
+	/*display:none;*/
+}
+
+.goods .big-img{
+	width:473px;
+	height:162px;
+	float:left;
+}
+.big-img a{
+	width:473px;
+	height:162px;
+	display: block;
+}
+.big-img a img{
+	width:473px;
+	height:162px;
+}
+
+.article .goods{
+	width:790px;
+	height:334px;
+	position: relative;
+	
+}
+.goods .foo{
+	width:790px;
+	height:334px;
+	display:none;
+}
+.foo li{
+	float: left;
+	width: 157px;
+	height:162px;
+	border-right:1px solid #f7f7f7;
+	border-bottom:1px solid #f7f7f7;
+	cursor: pointer;
+}
+.foo li img{
+	width:92px;
+	height:72px;
+	padding-top:17px;
+	padding-left:33px; ;
+}
+
+.foo li img:hover{
+	background: white;
+	opacity: 0.7;
+}
+.foo li p{
+	width:132px;
+	height:12px;
+	overflow: hidden;	
+	padding-top:12px;
+	color:#333333;
+	padding-left:10px;
+	display:inline-block;
+}
+.foo li p:hover{
+	color:#0099ff;
+}
+.foo li span{
+	color:#e4393c;
+	float: left;
+	padding-left:10px;
+}
+.foo.show4{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section .aside{
+	width:210px;
+	height:386px;
+	/*background: #09CFC5;*/
+	float:left;
+	
+}
+.aside h4{
+	color:#9999a6;
+	line-height:27px;
+	border-bottom:1px solid #aaaaaa;
+	margin-top:19px;
+}
+.aside ul{
+	height:164px;
+	margin-top:7px;
+}
+.aside ul li{
+	float:left;
+	width:105px;
+	height:42px;
+	border-top:1px dashed #f1f1f1;
+}
+.aside ul li img{
+	width:68px;
+	height:26px;
+	display: block;
+	padding-left:19px;
+}
+.aside span{
+	width:209px;
+	height:164px;
+	border:1px solid #e2e2e2;
+	display: block;
+}
+.aside span a img{
+	width:209px;
+	height:157px;
+	display:block;
+	padding:0; 			
+}

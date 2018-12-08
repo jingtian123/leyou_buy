@@ -1,0 +1,132 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>			
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		
+		<script src="js/jquery-1.12.3.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/common.js"></script>		
+	</head>
+	<body>
+		<!--声明
+		<div id="state">
+			<i class = "iconfont">&#xe61a;</i>
+			声明：本网站所宣传均为广告			
+		</div>-->
+		
+		<!--顶部-->		
+		<div id="top-wrap">
+		<div class="top">
+			<div class="welcome">
+			<p>您好，欢迎来到乐友孕婴童网上商城！</p>
+			<a href="javascript:;" id="saoma">
+				<i class="iconfont">&#xe600;</i>				
+			    手机商城
+			</a>
+			<div id="appDown" style="height:256px;overflow: hidden;position: absolute;left:375px;top:35px;z-index: 5;display: none;">
+				<a href="#"><img src="images/leyou_APP.png"/></a>
+			</div>
+			</div>
+			
+			<!--顶部导航-->
+			<div id="attention">
+				<a href="#"><img src ="images/weibo_03.jpg"/>加关注</a>
+			</div>
+			
+			<ul id="top-nav">
+				<li><a href="login.html">登录</a></li>
+				<li><a href="register.html">注册</a></li>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#">乐友礼金卡</a></li>
+				<li><a href="#">索取目录</a></li>
+				<li id="client">客户服务 <i class="iconfont">&#xe60e;</i></li>
+				<li>客服热线：400-666 9888</li>
+				<li><a href="#"> <i class="iconfont">&#xe655;</i> 收藏乐友</a></li>			
+			</ul>	
+			<ul id="serves">
+				<li><a href="#">常见问题</a></li>
+				<li><a href="#">售后服务</a></li>
+				<li><a href="#">投诉/建议</a></li>
+			</ul>
+		</div>
+		</div>
+		
+		<!--头部-->		
+		<div id="header">			
+			<!--logo-->
+			<div id="logo">
+				<h1><a href="http://127.0.0.1:8020/leyou/code/index.html?__hbt=1508737322632" title="乐友孕婴童-专业的母婴用品零售服务商">乐友孕婴童</a></h1>
+			</div>
+		
+	    	<!--搜索-->
+	    		<div id="search">
+	    			<form action="">	    				
+	    			<input type="text" placeholder="歌瑞家童装" class="txt"/>
+	    			<input type="button" value="搜  索" class="btn"/>
+	    			</form>
+	    			
+	    		<!--搜索菜单-->
+	    		<div id="search-menu">
+	    			<ul>
+	    				<li>热门搜索：</li>
+	    				<li><a href="#">婴装</a></li>
+	    				<li><a href="#">童装</a></li>
+	    				<li><a href="#">湿巾</a></li>
+	    				<li><a href="#">童鞋</a></li>
+	    				<li><a href="#">幼蓓</a></li>
+	    				<li><a href="#">奶瓶</a></li>
+	    				<li><a href="#">防辐射服</a></li>
+	    			</ul>
+	    		</div>	    			
+	    		</div>
+			
+			<!--乐友、购物车-->
+			<div id="status">
+				<ul>
+					<li>
+						<i class="iconfont">&#xe6ad;</i>
+						<a href="#">我的乐友</a>
+						<i class="iconfont" id="down">&#xe60e;</i>
+						<i class="iconfont" id="up">&#xe61b;</i>
+						
+						
+					</li>
+					<li>
+						<i class="iconfont">&#xe629;</i>
+						<a href="#">去结算</a>
+						<i class="iconfont">&#xe601;</i>
+					</li>
+					<li>
+						<i class="iconfont">&#xe608;</i>
+						<a href="#">邀请朋友奖励<span>¥<b>15</b></span></a>					
+					</li>
+				</ul>
+				
+				<!--邀请朋友奖励-->
+				<div id="yaoqing">
+					<span class="arrow"></span><!--三角箭头-->
+										
+					<div class="yq-iner">
+					<a href="#"><img src="images/yaoqing.png"/></a>
+					<form action="" method="">						
+						<input type="email" placeholder="输入朋友的邮箱地址..."/>
+						<a href="#">邀请</a>
+					</form>
+					
+					<a href="#"><img src="images/yaoqing-more.png"/></a>
+					</div>
+					
+				</div>
+			</div>									
+		</div>
+		
+			
+		
+		
+				
+	</body>
+</html>

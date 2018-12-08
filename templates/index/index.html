@@ -1,0 +1,1820 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/common.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/floor.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/footer.css' %}"/>
+    <script src="{% static 'js/jquery-1.12.3.js' %}"></script>
+    <script src="{% static 'js/jquery.cookie.js' %}"></script>
+    {#    <script src="{% static 'js/leyou_88.js' %}"></script>#}
+    <script>
+        $(function () {
+            $("#one").load("common.html");
+        })
+    </script>
+    <script src="{% static 'js/index-jq.js' %}"></script>
+
+    <script src="{% static 'js/common.js' %}"></script>
+
+</head>
+<body>
+
+<div id="one"></div>
+
+<!--导航-->
+<div id="nav-wrap">
+    <div class="nav">
+        <ul>
+            <li id="all-list">全部商品分类</li>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">乐乐闪购</a></li>
+            <li><a href="#">乐海淘</a><img src="{% static 'img/images/hot.gif' %}"></li>
+            <li><a href="#">乐友爆款</a></li>
+        </ul>
+        <ul class="nav-menu">
+            <li><a href="#">乐愿单</a></li>
+            <li><a href="#">亲子论坛</a></li>
+            <li><a href="#">乐友连锁店</a></li>
+            <li><a href="#">乐乐友加盟</a></li>
+        </ul>
+    </div>
+</div>
+<!--banner背景色-->
+<div id="banner-wrap">
+    <ul id="bg-color">
+        <li style="background:#f5a659"></li>
+        <li style="background:#cecffb"></li>
+        <li style="background:#fcb1ac"></li>
+    </ul>
+
+    <!--banner图-->
+    <div id="banner">
+        <!--全部商品分类-->
+        <div id="classify">
+            <ul class="fy-menu">
+                <li>
+                    <h3>
+                        <i class="iconfont"></i>
+                        孕妇及妈妈用品
+                        <i class="iconfont"></i>
+                    </h3>
+                    <span>
+								<a href="javascript:;" title="防辐射">防辐射 </a>
+								<a href="#" title="孕产期奶粉">孕产期奶粉</a>
+								<a href="#" title="吸奶器">吸奶器</a>
+								<a href="#" title="孕内衣">孕内衣</a>
+								<a href="#" title="孕期护肤">孕期护肤</a>
+								<a href="#" title="孕妇装">孕妇装</a>
+								<a href="#" title="产垫/待产包">产垫/待产包</a>
+								<a href="#" title="产后塑身去纹">产后塑身去纹</a>
+							</span>
+                </li>
+
+                <li>
+                    <h3>
+                        <i class="iconfont"></i>
+                        宝宝营养品
+                        <i class="iconfont"></i>
+                    </h3>
+                    <span>
+								<a href="javascript:;" title="奶粉">奶粉 </a>
+								<a href="#" title="羊奶粉">羊奶粉</a>
+								<a href="#" title="米粉">米粉</a>
+								<a href="#" title="营养面">营养面</a>
+								<a href="#" title="肉松">肉松</a>
+								<a href="#" title="DHA">DHA</a>
+								<a href="#" title="补钙/铁/锌硒">补钙/铁/锌硒</a>
+								<a href="#" title="益生菌">益生菌</a>
+								<a href="#" title="鱼肝油清火/开胃">鱼肝油清火/开胃</a>
+
+							</span>
+                </li>
+
+                <li>
+                    <h3>
+                        <i class="iconfont"></i>
+                        宝宝穿靓装
+                        <i class="iconfont"></i>
+                    </h3>
+                    <span>
+								<a href="#" title="内衣">内衣</a>
+								<a href="#" title="内衣礼盒">内衣礼盒</a>
+								<a href="#" title="马甲背心">马甲背心</a>
+								<a href="#" title="上衣">上衣</a>
+								<a href="#" title="开/闭裆裤">开/闭裆裤</a>
+								<a href="#" title="套装">套装</a>
+								<a href="#" title="外出服">外出服</a>
+								<a href="#" title="羽绒服">羽绒服</a>
+								<a href="#" title="童帽">童帽 </a>
+								<a href="#" title="童鞋">童鞋 </a>
+								<a href="#" title="袜子">袜子 </a>
+							</span>
+                </li>
+
+                <li>
+                    <h3>
+                        <i class="iconfont"></i>
+                        宝宝用什么
+                        <i class="iconfont"></i>
+                    </h3>
+                    <span>
+								<a href="#" title="奶瓶">奶瓶</a>
+								<a href="#" title="尿裤">尿裤</a>
+								<a href="#" title="湿巾">湿巾</a>
+								<a href="#" title="洗澡">洗澡</a>
+								<a href="#" title="清洁">清洁</a>
+								<a href="#" title="理发器">理发器</a>
+								<a href="#" title="棉签">棉签</a>
+								<a href="#" title="被褥">被褥</a>
+								<a href="#" title="车床椅">车床椅 </a>
+								<a href="#" title="睡袋">睡袋 </a>
+								<a href="#" title="睡枕">睡枕 </a>
+								<a href="#" title="洗衣">洗衣 </a>
+								<a href="#" title="学坐枕">学坐枕 </a>
+							</span>
+                </li>
+
+                <li>
+                    <h3>
+                        <i class="iconfont"></i>
+                        宝宝学与玩
+                        <i class="iconfont"></i>
+                    </h3>
+                    <span>
+								<a href="#" title="男孩玩具">男孩玩具</a>
+								<a href="#" title="女孩玩具">女孩玩具</a>
+								<a href="#" title="牙胶">牙胶</a>
+								<a href="#" title="摇铃">摇铃</a>
+								<a href="#" title="乐音玩具">乐音玩具</a>
+							</span>
+                </li>
+            </ul>
+        </div>
+
+        <!--商品分类 三级菜单-->
+
+        <div class="menu3-box">
+            <ul>
+                <li>
+                    <h3>妈妈营养</h3>
+                    <p>
+                        <a href="#">孕早期奶粉</a>
+                        <a href="#">孕早期营养</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">惠氏</a>
+								<a href="#">美赞臣</a>
+								<a href="#">雀巢</a>
+								<a href="#">伊利</a>
+								<a href="#">雅培</a>
+								<a href="#">多美滋</a>
+								<a href="#">康维多</a>
+								<a href="#">合生元</a>
+								<a href="#">纽曼思</a>
+								<a href="#">美素</a>
+								<a href="#">维他纤维</a>
+								<a href="#">优珍</a>
+								<a href="#">沱沱工社孕期/月子餐宅配卡</a>
+								<a href="#">贝因美</a>
+								<a href="#">纽奇</a>
+							</span>
+                </li>
+                <li>
+                    <h3>服装服饰</h3>
+                    <p>
+                        <a href="#">防辐射</a>
+                        <a href="#">孕妇装</a>
+                        <a href="#">孕内衣</a>
+                        <a href="#">产后塑身内衣</a>
+                        <a href="#">哺乳服装</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">大卫</a>
+								<a href="#">dacco</a>
+								<a href="#">歌瑞妈妈</a>
+								<a href="#">贝莉安雅</a>
+							</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>妈妈护肤</h3>
+                    <p>
+                        <a href="#">头部护理</a>
+                        <a href="#">面部护理</a>
+                        <a href="#">身体护理</a>
+                        <a href="#">口腔健康</a>
+                        <a href="#">产后塑身去纹</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">十月天使</a>
+								<a href="#">贝亲</a>
+								<a href="#">Denti莎卡</a>
+								<a href="#">菲丽洁</a>
+							</span>
+                </li>
+                <li>
+                    <h3>哺乳用品</h3>
+                    <p>
+                        <a href="#">吸奶器</a>
+                        <a href="#">防溢乳垫</a>
+                        <a href="#">乳头保护罩</a>
+                        <a href="#">哺乳枕</a>
+                        <a href="#">母乳存储</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">美德乐</a>
+								<a href="#">好女人</a>
+								<a href="#">阿美达</a>
+								<a href="#">新安怡</a>
+								<a href="#">小白熊</a>
+								<a href="#">乐儿宝</a>
+								<a href="#">日康</a>
+								<a href="#">MAM</a>
+								<a href="#">安朵</a>
+							</span>
+                </li>
+
+
+                <li>
+                    <h3>妈妈用品</h3>
+                    <p>
+                        <a href="#">产垫/待产包</a>
+                        <a href="#">卫生巾</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">开丽</a>
+								<a href="#">dacco</a>
+								<a href="#">大卫</a>
+								<a href="#">惟爱贝</a>
+								<a href="#" style="color:#cc0000;">Candide</a>
+							</span>
+                </li>
+            </ul>
+        </div>
+
+
+        <!--宝宝营养品-->
+        <div class="menu3-box">
+            <ul>
+                <li>
+                    <h3>奶粉</h3>
+                    <p>
+                        <a href="#">1段奶粉</a>
+                        <a href="#">2段奶粉</a>
+                        <a href="#">3段奶粉</a>
+                        <a href="#">4段奶粉</a>
+                        <a href="#">特殊配方奶粉</a>
+                        <a href="#">羊奶粉</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">纽澈</a>
+								<a href="#">惠氏启赋</a>
+								<a href="#">贝因美</a>
+								<a href="#">爱他美</a>
+								<a href="#">惠氏</a>
+								<a href="#">伊利</a>
+								<a href="#">白金诺优能</a>
+								<a href="#">诺优能</a>
+								<a href="#">美素</a>
+								<a href="#">雀巢</a>
+								<a href="#">雅培</a>
+								<a href="#">雅培菁智</a>
+								<a href="#">多美滋</a>
+								<a href="#">康维多</a>
+								<a href="#">美赞臣</a>
+								<a href="#">合生元</a>
+								<a href="#">瑞乐恩</a>
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+                        <a href="#">长牙期食品</a>
+                        <a href="#">果汁果泥</a>
+                        <a href="#">冲调类</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+								<a href="#">尚可诗</a>
+								<a href="#">kiwigarden</a>
+								<a href="#">清净园鱼肠</a>
+								<a href="#">皇室乐儿宝</a>
+								<a href="#">健力-鸡子黄</a>
+								<a href="#">Baby’s world</a>
+								<a href="#">贝唯他</a>
+								<a href="#">贝比玛玛</a>
+								<a href="#">乐健儿（进口）</a>
+							</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>营养品</h3>
+                    <p>
+                        <a href="#">DHA</a>
+                        <a href="#">补钙/铁/锌硒</a>
+                        <a href="#">益生菌</a>
+                        <a href="#">清火/开胃</a>
+                        <a href="#">维生素</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">英氏</a>
+								<a href="#">童年时光</a>
+								<a href="#">益力健</a>
+								<a href="#">聪明的油</a>
+								<a href="#">恩济堂</a>
+								<a href="#">维他纤维</a>
+								<a href="#">康邦美味</a>
+								<a href="#">保健品</a>
+							</span>
+                </li>
+                <li>
+                    <h3>哺乳用品</h3>
+                    <p>
+                        <a href="#">吸奶器</a>
+                        <a href="#">防溢乳垫</a>
+                        <a href="#">乳头保护罩</a>
+                        <a href="#">哺乳枕</a>
+                        <a href="#">初乳</a>
+                        <a href="#">绿色食用油</a>
+                        <a href="#">鱼肝油</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">美德乐</a>
+								<a href="#">好女人</a>
+								<a href="#">阿美达</a>
+								<a href="#">新安怡</a>
+								<a href="#">小白熊</a>
+								<a href="#">乐儿宝</a>
+								<a href="#">日康</a>
+								<a href="#">MAM</a>
+								<a href="#">安朵</a>
+							</span>
+                </li>
+
+            </ul>
+        </div>
+        <div class="menu3-box">
+            <ul>
+                <li>
+                    <h3>奶粉</h3>
+                    <p>
+                        <a href="#">1段奶粉</a>
+                        <a href="#">2段奶粉</a>
+                        <a href="#">3段奶粉</a>
+                        <a href="#">4段奶粉</a>
+                        <a href="#">特殊配方奶粉</a>
+                        <a href="#">羊奶粉</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">纽澈</a>
+								<a href="#">惠氏启赋</a>
+								<a href="#">贝因美</a>
+								<a href="#">爱他美</a>
+								<a href="#">惠氏</a>
+								<a href="#">伊利</a>
+								<a href="#">白金诺优能</a>
+								<a href="#">诺优能</a>
+								<a href="#">美素</a>
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+                        <a href="#">长牙期食品</a>
+                        <a href="#">果汁果泥</a>
+                        <a href="#">冲调类</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+							</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>营养品</h3>
+                    <p>
+                        <a href="#">DHA</a>
+                        <a href="#">补钙/铁/锌硒</a>
+                        <a href="#">益生菌</a>
+                        <a href="#">清火/开胃</a>
+                        <a href="#">维生素</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">英氏</a>
+								<a href="#">童年时光</a>
+								<a href="#">益力健</a>
+								<a href="#">聪明的油</a>
+								<a href="#">恩济堂</a>
+								<a href="#">维他纤维</a>
+								<a href="#">康邦美味</a>
+								<a href="#">保健品</a>
+							</span>
+                </li>
+                <li>
+                    <h3>哺乳用品</h3>
+                    <p>
+                        <a href="#">吸奶器</a>
+                        <a href="#">防溢乳垫</a>
+                        <a href="#">乳头保护罩</a>
+                        <a href="#">哺乳枕</a>
+                        <a href="#">初乳</a>
+                        <a href="#">绿色食用油</a>
+                        <a href="#">鱼肝油</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">美德乐</a>
+								<a href="#">好女人</a>
+								<a href="#">阿美达</a>
+								<a href="#">新安怡</a>
+								<a href="#">小白熊</a>
+								<a href="#">乐儿宝</a>
+								<a href="#">日康</a>
+								<a href="#">MAM</a>
+								<a href="#">安朵</a>
+							</span>
+                </li>
+
+            </ul>
+        </div>
+        <div class="menu3-box" style="width:740px;">
+            <ul>
+                <li>
+                    <h3>奶粉</h3>
+                    <p>
+                        <a href="#">1段奶粉</a>
+                        <a href="#">2段奶粉</a>
+                        <a href="#">3段奶粉</a>
+                        <a href="#">4段奶粉</a>
+                        <a href="#">特殊配方奶粉</a>
+                        <a href="#">羊奶粉</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">纽澈</a>
+								<a href="#">惠氏启赋</a>
+								<a href="#">贝因美</a>
+								<a href="#">爱他美</a>
+								<a href="#">惠氏</a>
+
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+							</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>营养品</h3>
+                    <p>
+                        <a href="#">DHA</a>
+                        <a href="#">补钙/铁/锌硒</a>
+                        <a href="#">益生菌</a>
+                        <a href="#">清火/开胃</a>
+                        <a href="#">维生素</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">英氏</a>
+								<a href="#">童年时光</a>
+								<a href="#">益力健</a>
+								<a href="#">聪明的油</a>
+								<a href="#">恩济堂</a>
+
+                </span></li>
+                <li>
+                    <h3>哺乳用品</h3>
+                    <p>
+                        <a href="#">吸奶器</a>
+                        <a href="#">防溢乳垫</a>
+                        <a href="#">乳头保护罩</a>
+                        <a href="#">哺乳枕</a>
+                        <a href="#">初乳</a>
+                        <a href="#">绿色食用油</a>
+                        <a href="#">鱼肝油</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">美德乐</a>
+								<a href="#">好女人</a>
+								<a href="#">阿美达</a>
+								<a href="#">新安怡</a>
+								<a href="#">小白熊</a>
+								<a href="#">乐儿宝</a>
+								<a href="#">日康</a>
+								<a href="#">MAM</a>
+								<a href="#">安朵</a>
+							</span>
+                </li>
+
+            </ul>
+            <ul>
+                <li>
+                    <h3>营养品</h3>
+                    <p>
+                        <a href="#">DHA</a>
+                        <a href="#">补钙/铁/锌硒</a>
+                        <a href="#">益生菌</a>
+                        <a href="#">清火/开胃</a>
+                        <a href="#">维生素</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">英氏</a>
+								<a href="#">童年时光</a>
+								<a href="#">益力健</a>
+								<a href="#">聪明的油</a>
+								<a href="#">恩济堂</a>
+								<a href="#">维他纤维</a>
+								<a href="#">康邦美味</a>
+								<a href="#">保健品</a>
+							</span>
+                </li>
+                <li>
+                    <h3>哺乳用品</h3>
+                    <p>
+                        <a href="#">吸奶器</a>
+                        <a href="#">防溢乳垫</a>
+                        <a href="#">乳头保护罩</a>
+                        <a href="#">哺乳枕</a>
+                        <a href="#">初乳</a>
+                        <a href="#">绿色食用油</a>
+                        <a href="#">鱼肝油</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">美德乐</a>
+								<a href="#">好女人</a>
+								<a href="#">阿美达</a>
+								<a href="#">新安怡</a>
+								<a href="#">小白熊</a>
+								<a href="#">乐儿宝</a>
+								<a href="#">日康</a>
+								<a href="#">MAM</a>
+								<a href="#">安朵</a>
+							</span>
+                </li>
+
+            </ul>
+        </div>
+        <div class="menu3-box">
+            <ul>
+                <li>
+                    <h3>奶粉</h3>
+                    <p>
+                        <a href="#">1段奶粉</a>
+                        <a href="#">2段奶粉</a>
+                        <a href="#">3段奶粉</a>
+                        <a href="#">4段奶粉</a>
+                        <a href="#">特殊配方奶粉</a>
+                        <a href="#">羊奶粉</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">纽澈</a>
+								<a href="#">惠氏启赋</a>
+								<a href="#">贝因美</a>
+								<a href="#">爱他美</a>
+								<a href="#">惠氏</a>
+								<a href="#">伊利</a>
+								<a href="#">白金诺优能</a>
+								<a href="#">诺优能</a>
+								<a href="#">美素</a>
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+							</span>
+                </li>
+                <li>
+                    <h3>辅食</h3>
+                    <p>
+                        <a href="#">果汁/水</a>
+                        <a href="#">米粉/菜粉</a>
+                        <a href="#">营养面</a>
+                        <a href="#">肉松</a>
+                        <a href="#">长牙期食品</a>
+                        <a href="#">果汁果泥</a>
+                        <a href="#">冲调类</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">嘉宝</a>
+								<a href="#">英氏</a>
+								<a href="#">DAIRY STATE FOODS</a>
+								<a href="#">方广</a>
+								<a href="#">亨氏</a>
+								<a href="#">乐健儿</a>
+								<a href="#">汇源</a>
+							</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>营养品</h3>
+                    <p>
+                        <a href="#">DHA</a>
+                        <a href="#">补钙/铁/锌硒</a>
+                        <a href="#">益生菌</a>
+                        <a href="#">清火/开胃</a>
+                        <a href="#">维生素</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">英氏</a>
+								<a href="#">童年时光</a>
+								<a href="#">益力健</a>
+								<a href="#">聪明的油</a>
+								<a href="#">恩济堂</a>
+								<a href="#">维他纤维</a>
+								<a href="#">康邦美味</a>
+								<a href="#">保健品</a>
+							</span>
+                </li>
+                <li>
+                    <h3>哺乳用品</h3>
+                    <p>
+                        <a href="#">吸奶器</a>
+                        <a href="#">防溢乳垫</a>
+                        <a href="#">乳头保护罩</a>
+                        <a href="#">哺乳枕</a>
+                        <a href="#">初乳</a>
+                        <a href="#">绿色食用油</a>
+                        <a href="#">鱼肝油</a>
+                    </p>
+                    <h4>热卖品牌:</h4>
+                    <span>
+								<a href="#">美德乐</a>
+								<a href="#">好女人</a>
+								<a href="#">阿美达</a>
+								<a href="#">新安怡</a>
+								<a href="#">小白熊</a>
+								<a href="#">乐儿宝</a>
+								<a href="#">日康</a>
+								<a href="#">MAM</a>
+								<a href="#">安朵</a>
+							</span>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!--轮播-->
+        <div id="lunbo">
+            <!--轮播图-->
+            <ul id="list01">
+                <li><a href="#"><img src="{% static 'img/images/banner01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/banner02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/banner03.jpg' %}"></a></li>
+            </ul>
+            <ul id="list02">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--banner底部图-->
+        <div id="banner-b">
+            <a href="#"><img src="{% static 'img/images/banner-b1.jpg' %}"></a>
+            <a href="#"><img src="{% static 'img/images/banner-b2.jpg' %}"></a>
+            <a href="#"><img src="{% static 'img/images/banner-b3.jpg' %}"></a>
+
+        </div>
+
+
+        <!--新闻-->
+        <div id="news">
+            <ul id="news-nav">
+                <li class="hover"><a href="#">乐友热讯</a></li>
+                <li><a href="#">新闻公告</a></li>
+            </ul>
+
+            <div id="news-box">
+                <!--乐友热讯-->
+                <dl class="allnews show">
+                    <div>
+                        <dt><p>贝儿欣德国进口材质 为宝宝健康保驾护航</p></dt>
+                        <dd><a href=""><img src="{% static 'img/images/news01.jpg' %}"></a></dd>
+                    </div>
+
+                    <div>
+                        <dt><p>澳洲玩具婴幼儿成长伙伴</p></dt>
+                        <dd><a href=""><img src="{% static 'img/images/news02.jpg' %}"></a></dd>
+                    </div>
+
+                    <div>
+                        <dt><p>新安怡 仿母乳般的自然感受</p></dt>
+                        <dd><a href=""><img src="{% static 'img/images/news03.jpg' %}"></a></dd>
+                    </div>
+
+                    <div>
+                        <dt><p>方广辅食 科学配比 营养美味</p></dt>
+                        <dd><a href=""><img src="{% static 'img/images/news04.jpg' %}"></a></dd>
+                    </div>
+
+                    <div>
+                        <dt><p>安馨诚品雪肌 补水面膜 锁水</p></dt>
+                        <dd><a href=""><img src="{% static 'img/images/news05.jpg' %}"></a></dd>
+                    </div>
+                </dl>
+
+                <!--新闻公告-->
+                <dl class="allnews intor">
+                    <dt><a href="#"><img src="{% static 'img/images/news06.jpg' %}" class="img1"></a></dt>
+                    <dd><a href="#">儿童安全“宝”卫战 你准备好了吗？...</a></dd>
+                </dl>
+            </div>
+
+            <!--促销快报-->
+            <div class="prom">
+                <h3>促销快报</h3>
+                <ul>
+                    <li>●<a href="#" title="歌瑞家 呵护宝宝健康成长"> 歌瑞家 呵护宝宝健康成长</a></li>
+                    <li>●<a href="#" title="十月天使 舒缓呵护肌肤"> 十月天使 舒缓呵护肌肤</a></li>
+                    <li>●<a href="#" title="贝晓芙特 补充儿童所需营养"> 贝晓芙特 补充儿童所需营养</a></li>
+                    <li>●<a href="#" title="方广 绿色原料 营养健康"> 方广 绿色原料 营养健康</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--独家特惠 品牌特卖-->
+<div id="about">
+    <a href="#"><img src="{% static 'img/images/youzhen.jpg' %}"></a>
+
+    <div class="main-wrap">
+        <!--公告 注意-->
+        <div class="notice">
+            <i class="iconfont"></i>
+            <ul>
+                <li><a href="#"> 关于假冒客服诈骗的声明</a></li>
+                <li><a href="#"> 防诈骗 这6个“坑”千万不要踩</a></li>
+                <!--<li><a href="#"> 关于假冒客服诈骗的声明</a></li>
+                <li><a href="#"> 防诈骗 这6个“坑”千万不要踩</a></li>-->
+            </ul>
+        </div>
+
+        <!--主体内容 -->
+        <div class="ab-main">
+            <!--主体内容导航-->
+            <div class="ab-main-nav">
+                <ul>
+                    <li class=" hover2"><span class="show2"></span>独家特惠</li>
+                    <li><span></span>品牌特惠</li>
+                    <li><span></span>新品上市</li>
+                    <li><span></span>好评如潮</li>
+                    <li><span></span>猜您喜</li>
+                </ul>
+            </div>
+            <!--主体内容   图片-->
+            <dl class="list show3">
+                <div>
+                    <dt><img src="{% static 'img/images/dujia01.jpg' %}"></dt>
+                    <dd>
+                        <b>¥18.50</b>
+                        <p><a href="#">乐健儿GreatFood胡萝卜味牛奶营养饼干</a></p>
+                    </dd>
+                </div>
+
+                <div>
+                    <dt><img src="{% static 'img/images/dujia02.jpg' %}"></dt>
+                    <dd>
+                        <b>¥58.00</b>
+                        <p><a href="#">英氏Engnice菁纯澳洲燕麦营养米粉225克</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/dujia03.jpg' %}"></dt>
+                    <dd>
+                        <b>¥89.00</b>
+                        <p><a href="#">费雪(FisherPrice)声光安抚海马-粉色</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/dujia04.jpg' %}"></dt>
+                    <dd>
+                        <b>¥12.00</b>
+                        <p><a href="#">捷利冠JELLEYCROWN乳酸菌饮品100ml*4原味</a></p>
+                    </dd>
+                </div>
+            </dl>
+            <dl class="list ">
+                <div>
+                    <dt><img src="{% static 'img/images/pinpai01.jpg' %}"></dt>
+                    <dd>
+                        <b>¥1399.00</b>
+                        <p><a href="#">Pouch 用心呵护</a></p>
+                    </dd>
+                </div>
+
+                <div>
+                    <dt><img src="{% static 'img/images/pinpai02.jpg' %}"></dt>
+                    <dd>
+                        <b>¥14.90</b>
+                        <p><a href="#">快乐鸭益智洗澡玩具</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/pinpai03.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/pinpai04.jpg' %}"></dt>
+                    <dd>
+                        <b>¥48.00</b>
+                        <p><a href="#">韦特儿 喂养系列</a></p>
+                    </dd>
+                </div>
+            </dl>
+            <dl class="list ">
+                <div>
+                    <dt><img src="{% static 'img/images/xinpin01.jpg' %}"></dt>
+                    <dd>
+                        <b>¥1399.00</b>
+                        <p><a href="#">Pouch 用心呵护</a></p>
+                    </dd>
+                </div>
+
+                <div>
+                    <dt><img src="{% static 'img/images/xinpin02.jpg' %}"></dt>
+                    <dd>
+                        <b>¥14.90</b>
+                        <p><a href="#">快乐鸭益智洗澡玩具</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/xinpin03.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+            </dl>
+            <dl class="list ">
+                <div>
+                    <dt><img src="{% static 'img/images/haoping01.jpg' %}"></dt>
+                    <dd>
+                        <b>¥1399.00</b>
+                        <p><a href="#">Pouch 用心呵护</a></p>
+                    </dd>
+                </div>
+
+                <div>
+                    <dt><img src="{% static 'img/images/haoping02.jpg' %}"></dt>
+                    <dd>
+                        <b>¥14.90</b>
+                        <p><a href="#">快乐鸭益智洗澡玩具</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/haoping03.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/haoping04.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/haoping05.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+            </dl>
+            <dl class="list ">
+                <div>
+                    <dt><img src="{% static 'img/images/like01.jpg' %}"></dt>
+                    <dd>
+                        <b>¥1399.00</b>
+                        <p><a href="#">Pouch 用心呵护</a></p>
+                    </dd>
+                </div>
+
+                <div>
+                    <dt><img src="{% static 'img/images/like02.jpg' %}"></dt>
+                    <dd>
+                        <b>¥14.90</b>
+                        <p><a href="#">快乐鸭益智洗澡玩具</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/like03.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+                <div>
+                    <dt><img src="{% static 'img/images/like04.jpg' %}"></dt>
+                    <dd>
+                        <b>¥23.80</b>
+                        <p><a href="#">幼蓓 夏日清洁必备</a></p>
+                    </dd>
+                </div>
+            </dl>
+
+        </div>
+    </div>
+
+    <!--新品首发-->
+    <div id="first">
+
+        <h3>新品首发</h3>
+        <ul class="ac-list">
+            <li class="active2">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+
+        <div class="f-list">
+            <ul>
+                <li>
+                    <a href="#"><img src="{% static 'img/images/first_01.jpg' %}"></a>
+                    <a href="#">歌瑞家</a>
+                    <p> 牛仔色偏襟长袖连身衣</p>
+                </li>
+                <li>
+                    <a href="#"><img src="{% static 'img/images/first_02.jpg' %}"></a>
+                    <a href="#">歌瑞家</a>
+                    <p>男宝白色纯棉体恤</p>
+                </li>
+                <li>
+                    <a href="#"><img src="{% static 'img/images/first_03.jpg' %}"></a>
+                    <a href="#">歌瑞家</a>
+                    <p>男宝宝混色纯棉圆领针织衫</p>
+                </li>
+                <li>
+                    <a href="#"><img src="{% static 'img/images/first_04.jpg' %}"></a>
+                    <a href="#">歌瑞家</a>
+                    <p>女宝宝粉色太空棉造型马甲</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<!--海外-->
+<div id="overseas-wrap">
+    <!--海淘专区-->
+    <div class="overseas">
+        <h2><i class="iconfont"></i>海淘专区</h2>
+
+        <div class="overseas-intor">
+
+            <a href="#" style="margin-top:10px;"><img src="{% static 'img/images/haitao_01.jpg' %}"></a>
+
+            <div class="pic">
+                <div>
+                    <a href="#">
+                        <img src="{% static 'img/images/USA.jpg' %}">
+                        <img src="{% static 'img/images/haitao_02.jpg' %}">
+                        <span>¥168.00</span>
+                        <p>childlife--美国童年时光钙镁锌成长营养液(1-12岁)474ml/瓶</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{% static 'img/images/USA.jpg' %}">
+                        <img src="{% static 'img/images/haitao_03.jpg' %}">
+                        <span>¥168.00</span>
+                        <p>childlife--美国童年时光钙镁锌成长营养液(1-12岁)474ml/瓶</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{% static 'img/images/USA.jpg' %}">
+                        <img src="{% static 'img/images/haitao_04.jpg' %}">
+                        <span>¥168.00</span>
+                        <p>childlife--美国童年时光钙镁锌成长营养液(1-12岁)474ml/瓶</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="{% static 'img/images/Australia.jpg' %}">
+                        <img src="{% static 'img/images/haitao_05.jpg' %}">
+                        <span>¥168.00</span>
+                        <p>childlife--美国童年时光钙镁锌成长营养液(1-12岁)474ml/瓶</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--热卖推荐-->
+    <div class="hot-sale">
+        <h3>热卖推荐</h3>
+        <div class="recom">
+            <i class="iconfont"></i>
+            <i class="iconfont"></i>
+
+            <div class="recom-in">
+
+                <dl>
+                    <dt><a href="#"><img src="{% static 'img/images/hot-sale_01.jpg' %}"></a></dt>
+                    <dd>
+                        <a href="#">亨氏Heinz乐维滋果汁泥苹果香芒120g富含维生素C</a>
+                        <span><b>¥5.80</b>数量有限</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#"><img src="{% static 'img/images/hot-sale_02.jpg' %}"></a></dt>
+                    <dd>
+                        <a href="#">托马斯3D背带PA水壶400ML 托马斯</a>
+                        <span><b>¥99.00</b>数量有限</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="#"><img src="{% static 'img/images/hot-sale_03.jpg' %}"></a></dt>
+                    <dd>
+                        <a href="#">努比nuby食物研磨器156g</a>
+                        <span><b>¥75.00</b>数量有限</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="h-pic">
+            <a href="#"><img src="{% static 'img/images/hot-sale.jpg' %}"></a>
+        </div>
+
+    </div>
+</div>
+
+<!--孕妈需要什么呵护-->
+<div id="section-wrap">
+    <div class="section">
+        <!--侧边导航-->
+        <div class="figue">
+            <div class="floor">
+                <div>
+                    <b>1F</b>
+                    <span></span>
+                    <i></i>
+                </div>
+                <h2>孕妈需要什么呵护</h2>
+            </div>
+
+            <ul>
+                <li><a href="#">孕产期奶粉</a></li>
+                <li><a href="#">孕产期营养</a></li>
+                <li><a href="#">防辐射</a></li>
+                <li><a href="#"> 孕妇装</a></li>
+                <li><a href="#">孕内衣</a></li>
+                <li><a href="#">产后塑身</a></li>
+                <li><a href="#">面部护理</a></li>
+                <li><a href="#">防溢乳垫</a></li>
+                <li><a href="#">妈咪包</a></li>
+                <li><a href="#">吸奶器</a></li>
+                <li><a href="#">产垫/待产包</a></li>
+                <li><a href="#">产后塑身去纹</a></li>
+                <li><a href="#">孕妇靠枕</a></li>
+            </ul>
+        </div>
+
+        <div class="article">
+            <ul class="article-nav">
+                <li><h3 class="hover3">优选推荐</h3></li>
+                <li><h3>孕妈营养</h3></li>
+                <li><h3>孕妈服饰</h3></li>
+                <li><h3>孕妈护理</h3></li>
+                <li><h3>其他用品</h3></li>
+                <li class="bg"><span></span><b></b></li>
+            </ul>
+
+            <div class="goods">
+                <ul class="goods-in show4 foo">
+                    <div class="big-img">
+                        <a href="#"><img src="{% static 'img/images/f1_goods1_01.jpg' %}"></a>
+                    </div>
+
+                </ul>
+                <ul class="goods-in foo">
+
+                </ul>
+                <ul class="goods-in foo">
+
+
+                </ul>
+                <ul class="goods-in foo">
+
+                </ul>
+                <ul class="goods-in foo">
+
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="aside">
+            <h4>推荐品牌</h4>
+            <ul>
+                <li><a href="#"><img src="{% static 'img/images/floor1_01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_03.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_04.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_05.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_06.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_07.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor1_08.jpg' %}"></a></li>
+            </ul>
+
+            <span>
+						<a href="#"><img src="{% static 'img/images/floor1.jpg' %}"></a>
+					</span>
+        </div>
+
+
+    </div>
+
+    <!--宝宝吃什么-->
+    <div class="section">
+        <!--侧边导航-->
+        <div class="figue">
+
+            <div class="floor">
+                <div>
+                    <b>2F</b>
+                    <span></span>
+                    <i></i>
+                </div>
+                <h2>宝宝吃什么</h2>
+            </div>
+
+
+            <ul style="background: url(images/figue_02.jpg) no-repeat right bottom;">
+							<span>
+
+								<li><a href="#">奶粉</a></li>
+								<li><a href="#"> 果汁/水</a></li>
+								<li><a href="#">米粉/菜粉</a></li>
+								<li><a href="#"> 营养面</a></li>
+								<li><a href="#">肉松</a></li>
+								<li><a href="#">泥糊类</a></li>
+							</span>
+
+                <span>
+								<li><a href="#">维生素</a></li>
+								<li><a href="#">鱼肝油</a></li>
+								<li><a href="#">益生菌</a></li>
+								<li><a href="#"> 清火/开胃</a></li>
+								<li><a href="#">长牙期食品</a></li>
+								<li><a href="#">DHA 补钙/铁/锌硒</a></li>
+							</span>
+            </ul>
+        </div>
+
+        <div class="article">
+            <ul class="article-nav foo2">
+                <li><h3 class="hover3">优选推荐</h3></li>
+                <li><h3>宝贝奶粉</h3></li>
+                <li><h3>宝贝辅食</h3></li>
+                <li><h3>健康营养</h3></li>
+                <li><h3>进口食品</h3></li>
+                <li class="bg"><span></span><b></b></li>
+            </ul>
+            <div class="goods">
+                <ul class="goods2 foo show4">
+                    <div class="big-img">
+                        <a href="#"><img src="{% static 'img/images/f2_goods1_01.jpg' %}"></a>
+                    </div>
+
+                </ul>
+                <ul class="goods2 foo"></ul>
+                <ul class="goods2 foo"></ul>
+                <ul class="goods2 foo"></ul>
+                <ul class="goods2 foo"></ul>
+
+            </div>
+
+
+        </div>
+
+        <div class="aside">
+            <h4>推荐品牌</h4>
+            <ul>
+                <li><a href="#"><img src="{% static 'img/images/floor2_01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_03.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_04.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_05.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_06.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_07.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor2_08.jpg' %}"></a></li>
+            </ul>
+
+            <span>
+						<a href="#"><img src="{% static 'img/images/floor2.jpg' %}"></a>
+					</span>
+        </div>
+    </div>
+
+    <!--宝宝穿什么-->
+    <div class="section">
+        <!--侧边导航-->
+        <div class="figue">
+
+            <div class="floor">
+                <div>
+                    <b>3F</b>
+                    <span></span>
+                    <i></i>
+                </div>
+                <h2>宝宝穿什么</h2>
+            </div>
+
+            <ul style="background: url(images/figue_03.jpg) no-repeat right bottom;">
+                <li><a href="#">童装上衣</a></li>
+                <li><a href="#">裤子</a></li>
+                <li><a href="#">婴装上衣</a></li>
+                <li><a href="#">开/闭裆裤</a></li>
+                <li><a href="#">哈衣</a></li>
+                <li><a href="#">肚衣</a></li>
+                <li><a href="#">童鞋</a></li>
+                <li><a href="#">T恤/衬衫</a></li>
+                <li><a href="#">连体服</a></li>
+                <li><a href="#">羽绒服</a></li>
+                <li><a href="#">袜子</a></li>
+                <li><a href="#">围嘴</a></li>
+            </ul>
+        </div>
+
+        <div class="article">
+            <ul class="article-nav">
+                <li><h3 class="hover3">优选推荐</h3></li>
+                <li><h3>婴装</h3></li>
+                <li><h3>童装</h3></li>
+                <li><h3>童鞋童袜</h3></li>
+                <li><h3>宝宝配饰</h3></li>
+                <li class="bg"><span></span><b></b></li>
+            </ul>
+
+            <div class="goods">
+
+                <ul class="goods3 foo show4">
+                    <div class="big-img">
+                        <a href="#"><img src="{% static 'img/images/f3_goods1_01.jpg' %}"></a>
+                    </div>
+                </ul>
+                <ul class="goods3 foo"></ul>
+                <ul class="goods3 foo"></ul>
+                <ul class="goods3 foo"></ul>
+                <ul class="goods3 foo"></ul>
+            </div>
+        </div>
+
+        <div class="aside">
+            <h4>推荐品牌</h4>
+            <ul>
+                <li><a href="#"><img src="{% static 'img/images/floor3_01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_03.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_04.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_05.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_06.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_07.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor3_08.jpg' %}"></a></li>
+            </ul>
+
+            <span>
+						<a href="#"><img src="{% static 'img/images/floor3.jpg' %}"></a>
+					</span>
+        </div>
+    </div>
+
+    <!--宝宝用什么-->
+    <div class="section">
+        <!--侧边导航-->
+        <div class="figue">
+
+            <div class="floor">
+                <div>
+                    <b>4F</b>
+                    <span></span>
+                    <i></i>
+                </div>
+                <h2>宝宝用什么</h2>
+            </div>
+
+            <ul style="background: url(images/figue_04.jpg) no-repeat right bottom;">
+
+						<span>
+							<li><a href="#">奶瓶</a></li>
+							<li><a href="#">奶嘴</a></li>
+							<li><a href="#">牙胶</a></li>
+							<li><a href="#"> 湿巾/纸巾</a></li>
+							<li><a href="#">婴儿护肤</a></li>
+							<li><a href="#">婴童床</a></li>
+							<li><a href="#">餐椅</a></li>
+						</span>
+
+                <span>
+							<li><a href="#">睡/抱袋</a></li>
+							<li><a href="#">睡枕</a></li>
+							<li><a href="#">套装/礼盒</a></li>
+							<li><a href="#">毛巾/浴巾</a></li>
+							<li><a href="#">婴儿学坐枕</a></li>
+						</span>
+            </ul>
+        </div>
+
+        <div class="article">
+            <ul class="article-nav">
+                <li><h3 class="hover3">优选推荐</h3></li>
+                <li><h3>喂食用品</h3></li>
+                <li><h3>宝宝防尿</h3></li>
+                <li><h3>居家洗护</h3></li>
+                <li><h3>车床椅寝</h3></li>
+                <li class="bg"><span></span><b></b></li>
+            </ul>
+
+            <div class="goods">
+                <ul class="goods4 foo show4">
+
+                    <div class="big-img">
+                        <a href="#"><img src="{% static 'img/images/f4_goods1_01.jpg' %}"></a>
+                    </div>
+                </ul>
+                <ul class="goods4 foo"></ul>
+                <ul class="goods4 foo"></ul>
+                <ul class="goods4 foo"></ul>
+                <ul class="goods4 foo"></ul>
+            </div>
+        </div>
+
+        <div class="aside">
+            <h4>推荐品牌</h4>
+            <ul>
+                <li><a href="#"><img src="{% static 'img/images/floor4_01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_03.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_04.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_05.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_06.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_07.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor4_08.jpg' %}"></a></li>
+            </ul>
+
+            <span>
+						<a href="#"><img src="{% static 'img/images/floor4.jpg' %}"></a>
+					</span>
+        </div>
+    </div>
+
+    <!--宝宝玩中学什么-->
+    <div class="section">
+        <!--侧边导航-->
+        <div class="figue">
+
+            <div class="floor">
+                <div>
+                    <b>5F</b>
+                    <span></span>
+                    <i></i>
+                </div>
+                <h2>宝宝玩中学什么</h2>
+            </div>
+
+            <ul style="background: url(images/figue_05.jpg) no-repeat right bottom;">
+
+						<span>
+							<li><a href="#">男孩玩具</a></li>
+							<li><a href="#">女孩玩具</a></li>
+							<li><a href="#">游戏垫</a></li>
+							<li><a href="#"> DIY创意</a></li>
+							<li><a href="#">拼插玩具</a></li>
+							<li><a href="#">肢体协调</a></li>
+							<li><a href="#">智力开发</a></li>
+						</span>
+
+                <span>
+							<li><a href="#">球类</a></li>
+							<li><a href="#">画笔</a></li>
+							<li><a href="#">写字板</a></li>
+							<li><a href="#">挂图认知卡片</a></li>
+							<li><a href="#">儿歌童谣故事</a></li>
+							<li><a href="#">爬行地垫</a></li>
+						</span>
+            </ul>
+        </div>
+
+        <div class="article">
+            <ul class="article-nav">
+                <li><h3 class="hover3">优选推荐</h3></li>
+                <li><h3>宝贝玩具</h3></li>
+                <li><h3>智力开发</h3></li>
+                <li><h3>宝宝文具</h3></li>
+                <li><h3>早教图书音像</h3></li>
+                <li class="bg"><span></span><b></b></li>
+            </ul>
+
+            <div class="goods">
+                <ul class="goods5 foo show4">
+                    <div class="big-img">
+                        <a href="#"><img src="{% static 'img/images/f5_goods1_01.jpg' %}"></a>
+                    </div>
+                </ul>
+                <ul class="goods5 foo"></ul>
+                <ul class="goods5 foo"></ul>
+                <ul class="goods5 foo"></ul>
+                <ul class="goods5 foo"></ul>
+            </div>
+        </div>
+
+        <div class="aside">
+            <h4>推荐品牌</h4>
+            <ul>
+                <li><a href="#"><img src="{% static 'img/images/floor5_01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_03.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_04.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_05.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_06.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_07.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor5_08.jpg' %}"></a></li>
+            </ul>
+
+            <span>
+						<a href="#"><img src="{% static 'img/images/floor5.jpg' %}"></a>
+					</span>
+        </div>
+    </div>
+
+    <!--乐海淘-->
+    <div class="section">
+        <!--侧边导航-->
+        <div class="figue">
+
+            <div class="floor">
+                <div>
+                    <b>6F</b>
+                    <span></span>
+                    <i></i>
+                </div>
+                <h2>乐海淘</h2>
+            </div>
+
+            <ul style="background: url(images/figue_06.jpg) no-repeat right bottom;">
+
+						<span>
+							<li><a href="#">日本馆</a></li>
+							<li><a href="#">美国馆</a></li>
+							<li><a href="#">韩国馆</a></li>
+						</span>
+
+                <span>
+							<li><a href="#">欧洲馆</a></li>
+							<li><a href="#">澳新馆</a></li>
+							<li><a href="#">港台馆</a></li>
+						</span>
+            </ul>
+        </div>
+
+        <div class="article">
+            <ul class="article-nav">
+                <li><h3 class="hover3">优选推荐</h3></li>
+                <li><h3>海淘奶粉</h3></li>
+                <li><h3>海淘尿裤</h3></li>
+                <li><h3>海淘营养</h3></li>
+                <li><h3>海淘洗护用品</h3></li>
+                <li class="bg"><span></span><b></b></li>
+            </ul>
+
+            <div class="goods">
+                <ul class="goods6 foo show4">
+                    <div class="big-img">
+                        <a href="#"><img src="{% static 'img/images/f6_goods1_01.jpg' %}"></a>
+                    </div>
+                </ul>
+                <ul class="goods6 foo"></ul>
+                <ul class="goods6 foo"></ul>
+                <ul class="goods6 foo"></ul>
+                <ul class="goods6 foo"></ul>
+            </div>
+        </div>
+
+        <div class="aside">
+            <h4>推荐品牌</h4>
+            <ul>
+                <li><a href="#"><img src="{% static 'img/images/floor6_01.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_02.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_03.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_04.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_05.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_06.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_07.jpg' %}"></a></li>
+                <li><a href="#"><img src="{% static 'img/images/floor6_08.jpg' %}"></a></li>
+            </ul>
+
+            <span>
+						<a href="#"><img src="{% static 'img/images/floor6.jpg' %}"></a>
+					</span>
+        </div>
+    </div>
+
+
+</div>
+
+<!--热门评论-->
+<div id="comment-wrap">
+    <div class="hot-comment">
+        <h3>热门评论</h3>
+        <ul class="hot-com-nav">
+            <li><a href="#">童装</a></li>
+            <li><a href="#">妈妈用品</a></li>
+            <li><a href="#">营养品</a></li>
+            <li><a href="#">喂养用品</a></li>
+            <li><a href="#">洗护用品</a></li>
+            <li><a href="#">车床椅</a></li>
+            <li><a href="#">宝宝寝具</a></li>
+            <li><a href="#">学与玩</a></li>
+            <li id="bord"></li>
+        </ul>
+        <ul class="comment show5">
+            <!--<li>
+                <a href="#"><img src="images/comment1-02.JPG"/></a>
+                <b><a href="#">csr.sys.11(会员)</a></b>
+                <span><img src="images/star.png"/></span>
+                <p><a href="#">女宝宝穿着很好看 干净 而且棉质很舒服sfsf</a></p>
+            </li>-->
+
+        </ul>
+        <ul class="comment"></ul>
+        <ul class="comment"></ul>
+        <ul class="comment"></ul>
+        <ul class="comment"></ul>
+        <ul class="comment"></ul>
+        <ul class="comment"></ul>
+        <ul class="comment"></ul>
+    </div>
+
+    <!--育儿社区精选-->
+    <div class="checked">
+
+        <div class="checked-in">
+            <h3>育儿社区精选</h3>
+            <div class="checked-top">
+                <a href="#">
+                    <img src="{% static 'img/images/config_547_1_1_2010-3-1.jpg' %}">
+                    <p>子曰：“父母在，不远游，游必有方。”我现</p>
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">宝宝睡眠问题我的</a></li>
+                <li><a href="#">在家开班教游泳</a></li>
+                <li><a href="#">多多的演奏会</a></li>
+                <li><a href="#">和曈曈一起做手工</a></li>
+                <li><a href="#">亚瑟驯鱼记</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">亚瑟驯鱼记</a></li>
+                <li><a href="#">对不起，小仓鼠~</a></li>
+                <li><a href="#">生日宝宝秀</a></li>
+                <li><a href="#">宝宝成长高楼</a></li>
+                <li><a href="#">儿童观影团招募</a></li>
+            </ul>
+        </div>
+
+        <!--订阅会员邮件-->
+        <div class="vip">
+            <h3>订阅会员邮件</h3>
+            <p>我们会将最新的资讯发到您的E-mail</p>
+            <form>
+                <input type="email" placeholder="请输入您的电子邮箱地址">
+                <input type="button" value="订阅">
+            </form>
+        </div>
+
+
+    </div>
+</div>
+
+<!--底部banner图-->
+<div id="footer-banner">
+    <a href="#"></a>
+</div>
+
+<!--底部导航-->
+<div id="footer-nav">
+
+    <div class="f-nav-menu">
+        <ul>
+            <span>关于乐友</span>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">广告服务</a></li>
+            <li><a href="#">乐友招聘</a></li>
+            <li><a href="#">乐友开店</a></li>
+            <li><a href="#">乐友加盟</a></li>
+            <li><a href="#">友情链接</a></li>
+        </ul>
+        <ul>
+            <span>消费者保障</span>
+            <li><a href="#">购物保障</a></li>
+            <li><a href="#">购物安全</a></li>
+            <li><a href="#">如何退换货</a></li>
+            <li><a href="#">发票制度</a></li>
+            <li><a href="#">售后服务</a></li>
+            <li><a href="#">常见问题解答</a></li>
+        </ul>
+        <ul>
+            <span>购物指南</span>
+            <li><a href="#">购物演示</a></li>
+            <li><a href="#">如何参加促销</a></li>
+            <li><a href="#">订单查询</a></li>
+            <li><a href="#">修改订单</a></li>
+            <li><a href="#">商品签收</a></li>
+            <li><a href="#">隐私权与服务</a></li>
+        </ul>
+        <ul>
+            <span>支付配送</span>
+            <li><a href="#">网上支付</a></li>
+            <li><a href="#">礼金卡支付</a></li>
+            <li><a href="#">货到付款</a></li>
+            <li><a href="#">邮政汇款</a></li>
+            <li><a href="#">银行汇款</a></li>
+            <li><a href="#">配送时效</a></li>
+            <li><a href="#">运费标准</a></li>
+        </ul>
+        <ul>
+            <span>特色服务</span>
+            <li><a href="#">会员专享</a></li>
+            <li><a href="#">会员等级</a></li>
+            <li><a href="#">会员积分</a></li>
+            <li><a href="#">免责条款</a></li>
+            <li><a href="#">优惠券使用</a></li>
+            <li><a href="#">购买礼金卡</a></li>
+        </ul>
+        <div></div>
+    </div>
+    <div class="message">
+        <img src="{% static 'img/http://www.leyou.com.cn/upload/sweep-code.gif' %}">
+    </div>
+</div>
+
+<!--网页底部-->
+<div id="footer">
+    <p>地址：北京市朝阳区八里庄西里100号住邦2000商务中心1号楼西区4层 订购热线：400-666-9888 E-mail：leyou_service@leyou.com </p>
+
+    <ul>
+        <li>
+            <span><a href="#"><img src="{% static 'img/images/footer_01.GIF' %}"></a></span>
+            <span><a href="#">网上交易<br>保障中心</a></span>
+        </li>
+        <li>
+            <span><a href="#"><img src="{% static 'img/images/icp.jpg' %}"></a></span>
+            <span>沪ICP备<br>15052447号-2</span>
+
+        </li>
+        <li>
+            <a href="#"><img src="{% static 'img/images/shiping_xk.jpg' %}"></a>
+            <span> <a href="#">食品经营许可证<br>JY13101150171467</a></span>
+
+        </li>
+        <li>
+            <a href="#"><img src="{% static 'img/images/yingye_zhizhaon.jpg' %}"></a>
+            <span><a href="#">营业执照<br>41000000201611150273</a></span>
+        </li>
+    </ul>
+    <p>上海婴启电子商务有限公司 版权所有 Copyright©1999-2017 leyou.com.cn All Rights Reserved </p>
+</div>
+
+
+<!--返回顶部-->
+<div id="return-top">
+    <img src="{% static 'img/images/top.gif' %}">
+</div>
+
+
+</body>
+</html>
+						
+								

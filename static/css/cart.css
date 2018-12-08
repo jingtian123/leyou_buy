@@ -1,0 +1,306 @@
+/*头部*/
+#header{
+	width:1010px;
+	height:94px;
+	margin:0 auto;
+	border-bottom:2px solid #ffb366;
+}
+#header .logo{
+	width:208px;
+	height:50px;
+	background: url(../images3/logo.png) no-repeat;
+	margin-top:16px;
+	margin-left:3px;
+	float:left;
+}
+.logo h1 a{
+	width:208px;
+	height:50px;
+	display: block;
+	text-indent: -9999px;
+}
+#header .h-nav{
+	float:right;
+	margin-top:10px;
+}
+.h-nav li{
+	float:left;
+	padding-left:12px;
+	padding-right: 8px;
+	border-right:1px solid #743374;	
+}
+.h-nav li:last-child{
+	border-right:0;
+}
+
+.h-nav li a:hover{
+	text-decoration: underline;
+}
+
+
+#section{
+	width:1010px;
+	margin:20px auto 0;
+}
+
+.s-nav{
+	width:500px;
+	height:24px;
+	margin-left:13px;
+}
+.s-nav li{
+	width:150px;
+	height:24px;
+	background: #f7f7f7;
+	float:left;
+	line-height:24px;
+	margin-right:8px;
+	border-radius: 0 20px 20px 0;
+	font-size:14px;
+	color:#333333;
+	text-align: center;
+}
+
+.s-nav li.active{
+	background: #ff9933;
+	color:white;
+}
+
+.my-cart{
+	width:1010px;
+	height:44px;
+	
+}
+.my-cart h3{
+	float:left;
+	padding-top:16px;
+	font-size:16px;
+	color:#333333;
+	font-weight:900;
+}
+.my-cart h3 i{
+	font-size:24px;
+	color:#f34877;
+}
+.my-cart a{
+	float:right;
+	color:#0072c1;
+	text-decoration: underline;
+	padding-top:22px;
+	
+}
+
+/*空购物车*/
+.empty-cart{
+	width:1010px;
+	height:446px;
+	border:1px solid #efe8ec;
+	border-bottom: 0;
+	margin-top:3px;
+	display:none;
+}
+
+.empty-cart img{
+	width:95px;
+	height:123px;
+	padding-top:100px;
+	padding-left:220px;
+	float:left;
+}
+
+.empty-cart .haiwai{
+	float: left;
+}
+.empty-cart p{
+	padding-top:126px;
+    padding-left:30px;
+    font-size:16px;
+    font-weight:900;
+   
+}
+.empty-cart p a{
+	color:#f34877;
+}
+.empty-cart p a:hover{
+	text-decoration: underline;
+}
+.empty-cart span{
+	width:153px;
+	height:35px;
+	display: block;
+	border:1px solid #f34877;
+	text-align: center;
+	line-height:35px;
+	margin-top:52px;
+	margin-left:121px;
+}
+.empty-cart span a{
+		color:#f34877;
+}
+.empty-cart span a:hover{
+	text-decoration: underline;
+}
+.cart-list {
+	display:block;
+}
+.cart-list p:first-child{
+	padding-top:15px;
+	font-size:14px;
+	color:#333333;
+	padding-bottom:15px;
+}
+.cart-list p a{
+	color:#0072c1;
+	padding-right:8px;
+}
+.cart-list p a:hover{
+	text-decoration: underline;
+}
+
+table{
+	width:1010px;
+	border:1px solid #e7e7e7;
+}
+table tr{
+	border-bottom:1px dashed #e7e7e7;
+	height:77px;	
+}
+.check{
+	width:15px;
+	height:15px;
+	background: white;
+	margin-left:19px;
+}
+.img-box{
+	width:400px;
+}
+.img-box .img{
+	border:1px solid #e1e1e1;
+	float:left;
+}
+.img-box .name{
+	padding-left:10px;
+	width:231px;
+	float:left;
+}
+.name a:hover{
+	text-decoration: underline;
+}
+
+.follow:hover,.dele:hover{
+	text-decoration: underline;
+}
+
+.price{
+	width:160px;
+
+	text-align: center;
+}
+.check-box{
+	width:52px;
+}
+
+.number{
+	text-align: center;
+}
+.reduce,.add{
+	width:15px;
+	height:15px;
+	text-align: center;
+	line-height: 15px;
+}
+.num{
+	width:32px;
+	height:19px;
+	border:1px solid #c4c4c4;
+	text-align: center;
+	line-height: 19px;
+}
+
+.dele-box{
+	float:left;
+	margin-top:30px;
+	height:14px;
+}
+.dele-box i{
+	color:#ff3333;
+}
+#delSelect{
+	font-size:14px;
+	color:#333333;
+}
+
+.goods-total{
+	float:right;
+	padding-top:30px;
+	font-size:14px;
+	color:#333333;
+	height:14px;
+}
+#total{
+	color:#f34877;
+	font-weight:900;
+}
+
+/*继续购物和去结算*/
+.continue{
+	width:97px;
+	height:26px;
+	background: #AEAEAE;
+	border-radius: 5px;
+	float:left;
+	text-align:center;
+	line-height:26px;
+	margin-left:754px;
+	margin-top:37px;
+	font-size:14px;
+	color:white;
+	font-weight:900;
+	cursor: pointer;
+}
+.continue i{
+	font-size:12px;
+}
+.balance{
+	width:132px;
+	height:37px;
+	background:#dd600f;
+	border-radius: 10px;
+	float:right;
+	margin-top:32px;
+	text-align:center;
+	line-height:37px;
+	font-size:18px;
+	color:white;
+	font-weight:900;
+	cursor: pointer;
+	
+}
+.balance i{
+	font-size:18px;
+}
+
+/*底部*/
+#footer{
+	width:1000px;
+	height:42px;
+	margin:135px auto 0;
+	text-align: center;
+	line-height:42px;
+
+}
+#footer p{
+	float:left;
+	
+}
+#footer img{
+	float:left;
+	width:34px;
+	height:43px;
+}
+#footer p:first-child{
+	padding-left:195px;
+}
+
+
+.spinnerExample{margin:10px 0;}

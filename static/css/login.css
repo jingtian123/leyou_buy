@@ -1,0 +1,191 @@
+/*头部*/
+#header{
+	width:1000px;
+	height:61px;
+	margin:0 auto;
+}
+#header .logo{
+	width:208px;
+	height:72px;
+	background: url(../images3/logo.png) no-repeat;
+	margin-top:9px;
+	margin-left:3px;
+}
+.logo h1 a{
+	width:208px;
+	height:50px;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+#main{
+	width:1000px;
+	height:444px;
+	border-bottom:1px solid #eaeaea;
+	margin:13px auto 0;
+}
+#main .img-box{
+	width:500px;
+	height:432px;
+	float:left;
+}
+.img-box a img{
+	padding-top:59px;
+	padding-left:11px;
+	
+}
+.img-box p{
+	padding-top:15px;
+	
+}
+.img-box p span{
+	color:#f2622d;
+	font-size:16px;
+	font-weight:900;
+}
+.img-box p b{
+	color:#f2622d;
+	padding-top:5px;
+}
+
+
+
+#main fieldset{
+	width:342px;
+	height:400px;
+	border-color:#e5e5e5;
+	float:right;
+}
+#main .baby{
+	width:120px;
+	height:72px;
+}
+
+fieldset form{
+	margin-left:20px;
+	
+}
+form div{
+	width:298px;
+	height:36px;
+	border:1px solid #e5e5e5;
+	margin-bottom: 14px;
+	line-height:36px;
+	
+}
+form div:nth-child(1){
+	border:0;
+	
+}
+form div:nth-child(1) h2{
+	font-size:18px;
+	color:#f26250;
+	float:left;
+}
+form div:nth-child(1) p{
+	float:right;
+	padding-right:21px;
+}
+form div:nth-child(1) p a{
+	color:#f26250;
+}
+form div:nth-child(5){
+	float:left;
+}
+form div i{
+	color:#bebebe;
+	font-size:20px;
+	padding-left:9px;
+}
+form div input{
+	font-size:12px;
+}
+
+#code_input{
+	padding-left:9px;
+	width:110px;
+	height:36px;
+	border:1px solid #e5e5e5;
+	float:left;
+	
+
+}
+form div:nth-child(4),form div:nth-child(5){
+	border:0;
+}
+
+
+#checked{
+	float:left;
+	margin-top:12px;
+	margin-right:6px;
+}
+form div:nth-child(5) p{
+	float:left;
+}
+form div:nth-child(5) a{
+	float:right;
+}
+form div:nth-child(5) a:hover{
+	text-decoration: underline;
+}
+
+#go{
+	width:300px;
+	height:38px;
+	background: #F2622D;
+	border-radius: 5px;
+	color:white;
+	cursor: pointer;
+}
+#phone,#pwd{
+	width:250px;
+	height:34px;
+}
+#v_container{
+	width:100px;
+	height:40px;
+	display:block;
+	/*margin-top:10px;*/
+	padding-left:38px;
+	float:left;
+}
+#yanzheng{
+	position: relative;
+}
+.wrong{
+	display: block;
+	float:left;
+	line-height: 14px;
+	padding-top:5px;
+	display: none;
+}
+.wrong img{
+	width:12px;
+	height:12px;
+	padding-right: 5px;
+	padding-bottom:2px;
+	
+
+}
+/*底部*/
+#footer{
+	width:1000px;
+	height:42px;
+	margin:45px auto 0;
+	text-align: center;
+	line-height:42px;
+}
+#footer p{
+	float:left;
+	
+}
+#footer img{
+	float:left;
+	width:34px;
+	height:43px;
+}
+#footer p:first-child{
+	padding-left:195px;
+}

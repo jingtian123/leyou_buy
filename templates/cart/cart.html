@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>		
+		<script src="js/jquery-1.12.3.js"></script>	
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/cart.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="logo">
+				<h1><a href="http://127.0.0.1:8020/leyou/code/index.html?__hbt=1508747332020" title="乐友孕婴童商城首页">乐友孕婴童</a></h1>
+			</div>
+			<ul class="h-nav">
+				<li><a href="http://127.0.0.1:8020/leyou/code/login.html?__hbt=1508747264221">登录</a></li>
+				<li><a href="http://127.0.0.1:8020/leyou/code/register.html?__hbt=1508747288421">免费注册</a></li>
+				<li><a href="#">我的乐友</a></li>
+				<li><a href="#">查积分</a></li>
+				<li><a href="#">查订单</a></li>
+				<li><a href="#">帮助中心</a></li>
+			</ul>
+		</div>
+		
+		<div id="section">
+			
+			<ul class="s-nav">
+				<li class="active">1、我的购物车</li>
+				<li>2.填写核对订单信息</li>
+				<li>3.成功提交订单</li>
+			</ul>
+			
+			<div class="my-cart">
+				<h3>
+					<i class="iconfont">&#xe609;</i>
+					我的购物车
+				</h3>
+				
+				<a href="#">去海淘购物车>></a>
+				
+			</div>
+			
+			<div class="empty-cart">
+				<img src="images3/empty.gif"/>
+				
+				<div class="haiwai">
+					
+					<p>您的购物车中还没有商品，赶快去<a href="#">选购商品</a>吧！</p>
+				
+				    <span><a href="#">去海外购首页看看</a></span>
+				
+				</div>				
+			</div>
+			
+			<div class="cart-list">
+				
+				<p><a href="login.html">登录</a>您购物车的商品将永久保存</p>
+				
+				<table border="0" cellspacing="" cellpadding="">
+					
+					<tr height=42>
+						<th width=52 >
+							<input type="checkbox" checked="checked" id="allSelect"/>全选							
+						</th>
+						<th width=400>商品名称</th>
+						<th width=160>乐友价</th>
+						<th width=125>数量</th>
+						<th width=75>删除</th>											
+					</tr>
+					
+					</table>
+					
+					<table id="list" border="0">										
+					
+					</table>
+				
+					<div class="dele-box">
+						<i class="iconfont">&#xe613;</i>
+						<a href="#" id="delSelect">删除选中的商品</a>
+					</div>
+					
+					<p class="goods-total">商品金额总计：<span id="total">0.00</span></p>
+				</div>
+			
+				<div class="continue">
+					<i class="iconfont">&#xe611;</i>
+					继续购物
+				</div>
+				
+				<div class="balance">
+
+					去结算
+					<i class="iconfont">&#xe612;</i>
+					
+				</div>				
+			
+			</div>
+		
+		<!--底部-->
+		<div id="footer">
+			<p>Copyright© leyou.com.cn 1999-2017, All Rights Reserved</p>
+			<img src="images3/validate.gif"/>
+			<p>沪ICP备15052447号-2 乐友孕婴童网上商城 版权所有</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>			
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		 <script src="js/move.js"></script>	   
+	    <script src="js/index.js"></script>
+		<script src="js/jquery-1.12.3.js"></script>
+	    <script src="js/index-jq.js"></script>		
+		<script src="js/common.js"></script>
+		 <script>
+	    	$(function(){
+	    		$("#one").load("common.html");
+	    	})
+	    </script>
+		<!--<script>
+			onload =function(){
+				var box=document.getElementById("box");
+				box.style.background = "red";
+			}
+		</script>-->
+		
+	</head>
+	<body>
+		<div id="one"></div>
+		
+		<!--<div id="box" style="width:100px;height:100px;" ></div>-->
+	</body>
+</html>

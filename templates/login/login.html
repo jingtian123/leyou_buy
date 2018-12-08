@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-1.12.3.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/gVerify.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<div id="header">			
+			<div class="logo">
+				<h1><a href="http://127.0.0.1:8020/leyou/code/index.html?__hbt=1508747332020" title="乐友孕婴童商城首页">乐友孕婴童</a></h1>
+			</div>			
+		</div>
+		
+		<div id="main">
+			<div class="img-box">
+				<a href="#"><img src="images3/ad_img.png/"></a>
+				<p><b>*</b>门店用户只需手机号即可登录，如有疑问请拨打<span>400-666-9888</span>咨询客服</p>
+			</div>
+			
+			
+				<fieldset>
+					
+					<legend align="center"><img class="baby" src="images3/baby_icon.png"/></legend>
+					<form action="">
+						
+						<div>							
+							<h2>登录乐友</h2>
+							<p>还没有注册乐友号?<a href="register.html">快速注册>></a></p>
+						</div>
+						
+						<div>						
+						    <i class="iconfont">&#xe6ad;</i>
+						    <input type="text" placeholder="请输入用户名和手机号" id="phone"/>
+						</div>
+						
+						<div>
+							<i class="iconfont">&#xe62e;</i>
+							<input type="password" placeholder="请输入密码" id="pwd"/>
+						</div>
+						
+						<div id="yanzheng">
+							<input type="text" placeholder="请输入验证码" id="code_input"/>
+							<span id="v_container"> </span>
+							<p class="wrong"><img src="images3/wrong.jpg"/>验证码输入错误</p>							
+							
+						</div>
+						
+						<div>						
+							<input type="checkbox" id="checked"/>
+							<p>记住我的登录状态 </p>
+							<a href="#">忘记密码？</a>
+						</div>
+					    <input type="button" value="登录" id="go"/>
+				    </form>
+				</fieldset>								
+		</div>
+		
+		<!--底部-->
+		<div id="footer">
+			<p>Copyright© leyou.com.cn 1999-2017, All Rights Reserved</p>
+			<img src="images3/validate.gif"/>
+			<p>沪ICP备15052447号-2 乐友孕婴童网上商城 版权所有</p>
+		</div>
+	</body>
+</html>
